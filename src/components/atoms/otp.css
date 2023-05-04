@@ -1,0 +1,57 @@
+ img{
+    width: 53%;
+    position: absolute;
+ 
+    display: flex;
+ }
+ .sub_main {
+    display: flex;
+    background-color: rgb(238, 244, 243);
+    align-items: center;
+    padding-left: 22rem;
+    width: 21%;
+    border: 2px solid #dd8ea93b;
+    border-radius: 2px solid red;
+    height: 101vh;
+    flex-direction: column;
+}
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 26rem;
+    flex-direction: column;
+    width: 19rem;
+    margin-left: 57rem;
+    /* padding: 50px; */
+    margin-top: 7rem;
+    background-color: transparent;
+    width: 20rem;
+    height: 23rem;
+    border: 1px solid #e9f3f2;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    perspective: 1000px;
+}
+
+input {
+    padding: 4px;
+    width: 14rem;
+    border-radius: 6px unset;
+    /* border: none; */
+}
+button {
+    padding: 10px;
+    margin-top: 2rem;
+    background-color: lightblue;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+    border-radius: 14px;
+}
+ label{
+    margin-bottom: 18px;
+ }
+ span{
+    color: red;
+ }
